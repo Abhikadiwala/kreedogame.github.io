@@ -278,7 +278,7 @@ window.addEventListener('resize', Resize)
 //  ------------------------------------------------------------------------
 
 // level 0 Backgroud Image
-var l0Backgroud = `${endPoint}/asset/BackgroundL0.png`
+var l0Backgroud = `${endPointserver}/asset/BackgroundL0.png`
 
 const loadImg = new THREE.TextureLoader();
 loadImg.load(
