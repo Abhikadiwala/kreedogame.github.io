@@ -582,7 +582,8 @@ var rewardImg = `${endPointserver}/asset/logo/Rewards.png`
 var skipBtn = `${endPointserver}/asset/logo/Skip.png`
 
 // Let's play btn
-var let_btn = `${endPointserver}/asset/Let's_play.png`
+// var let_btn = `${endPointserver}/asset/Let's_play.png`
+var let_btn = `asset/Let's_play.png`
 
 // Slides
 // intro more
