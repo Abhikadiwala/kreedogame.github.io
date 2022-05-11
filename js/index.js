@@ -825,7 +825,7 @@ function firstVisit() {
     // Load Image here Start Button 
     const loadImg = new THREE.TextureLoader();
     loadImg.load(
-        "../asset/Let's_play.png",
+        "../asset/Let's_play.PNG",
 
         function (texture) {
             var planeMaterial = new THREE.MeshBasicMaterial({
