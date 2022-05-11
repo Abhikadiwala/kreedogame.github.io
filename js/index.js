@@ -826,7 +826,8 @@ function firstVisit() {
     const loadImg = new THREE.TextureLoader();
     loadImg.load(
 //         "../asset/Let's_play.PNG",
-        "https://abhikadiwala.github.io/asset/Let's_play.png",
+//         "https://abhikadiwala.github.io/asset/Let's_play.png",
+        "https://abhikadiwala.github.io/kreedogame.github.io/asset/Let's_play.png",
 
         function (texture) {
             var planeMaterial = new THREE.MeshBasicMaterial({
