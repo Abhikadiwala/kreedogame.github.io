@@ -57,7 +57,7 @@ var setItemLocal = localStorage.setItem('level4', false)
 
 // Demo Url for let's play button
 // https://abhikadiwala.github.io/kreedogame.github.io/asset/Let's_play.png
-var endPoint = "https://abhikadiwala.github.io/kreedogame.github.io"
+var endPointserver = "https://abhikadiwala.github.io/kreedogame.github.io"
 
 
 // Fetch EndPoint of URL
@@ -566,94 +566,94 @@ document.addEventListener("visibilitychange", function () {
 
 // Image
 // var ins1 = "../asset/Instructor_L0_1.png"
-var ins1 = `${endPoint}/asset/Instructor_L0_1.png`
-var ins2 = `${endPoint}/asset/Instructor_L0_2.png`
+var ins1 = `${endPointserver}/asset/Instructor_L0_1.png`
+var ins2 = `${endPointserver}/asset/Instructor_L0_2.png`
 
-var shand = `${endPoint}/asset/hand_img.png`
+var shand = `${endPointserver}/asset/hand_img.png`
 
-var play_again = `${endPoint}/asset/logo/Play again.png`
-var play_next = `${endPoint}/asset/logo/Play the next level.png`
-var play_game = `${endPoint}/asset/logo/Play game.png`
+var play_again = `${endPointserver}/asset/logo/Play again.png`
+var play_next = `${endPointserver}/asset/logo/Play the next level.png`
+var play_game = `${endPointserver}/asset/logo/Play game.png`
 
 // var rewardImg = "../asset/logo/Rewards 0.png"
-var rewardImg = `${endPoint}/asset/logo/Rewards.png`
+var rewardImg = `${endPointserver}/asset/logo/Rewards.png`
 
 // Skip Button
-var skipBtn = `${endPoint}/asset/logo/Skip.png`
+var skipBtn = `${endPointserver}/asset/logo/Skip.png`
 
 // Let's play btn
-var let_btn = `${endPoint}/asset/Let's_play.png`
+var let_btn = `${endPointserver}/asset/Let's_play.png`
 
 // Slides
 // intro more
-var s1sound = `${endPoint}/Sounds/level0_sounds/ML_A_L0_4.mp3`
-var s1lhs = `${endPoint}/asset/new_image_assets/game element-10.png`
+var s1sound = `${endPointserver}/Sounds/level0_sounds/ML_A_L0_4.mp3`
+var s1lhs = `${endPointserver}/asset/new_image_assets/game element-10.png`
 
-var s1rhs = `${endPoint}/asset/new_image_assets/game element-03.png`
+var s1rhs = `${endPointserver}/asset/new_image_assets/game element-03.png`
 
 // intro less
-var s2sound = `${endPoint}/Sounds/level0_sounds/ML_A_L0_5.mp3`
-var s2lhs = `${endPoint}/asset/new_image_assets/game element-08.png`
-var s2rhs = `${endPoint}/asset/new_image_assets/game element-02.png`
+var s2sound = `${endPointserver}/Sounds/level0_sounds/ML_A_L0_5.mp3`
+var s2lhs = `${endPointserver}/asset/new_image_assets/game element-08.png`
+var s2rhs = `${endPointserver}/asset/new_image_assets/game element-02.png`
 
 // intro equal
-var s3equal = `${endPoint}/asset/new_image_assets/game element-05.png`
-var s3sound = `${endPoint}/Sounds/level0_sounds/ML_A_L0_6.mp3`
+var s3equal = `${endPointserver}/asset/new_image_assets/game element-05.png`
+var s3sound = `${endPointserver}/Sounds/level0_sounds/ML_A_L0_6.mp3`
 
 // recog more
-var s4lhs = `${endPoint}/asset/new_image_assets/game element-08.png`
-var s4rhs = `${endPoint}/asset/new_image_assets/game element-02.png`
-var s4sound = `${endPoint}/Sounds/level0_sounds/ML_A_L0_8.mp3`
+var s4lhs = `${endPointserver}/asset/new_image_assets/game element-08.png`
+var s4rhs = `${endPointserver}/asset/new_image_assets/game element-02.png`
+var s4sound = `${endPointserver}/Sounds/level0_sounds/ML_A_L0_8.mp3`
 
 // recog less
-var s5lhs = `${endPoint}/asset/new_image_assets/game element-03.png`
-var s5rhs = `${endPoint}/asset/new_image_assets/game element-07.png`
-var s5sound = `${endPoint}/Sounds/level0_sounds/ML_A_L0_9.mp3`
+var s5lhs = `${endPointserver}/asset/new_image_assets/game element-03.png`
+var s5rhs = `${endPointserver}/asset/new_image_assets/game element-07.png`
+var s5sound = `${endPointserver}/Sounds/level0_sounds/ML_A_L0_9.mp3`
 // recog equal
-var s6img = `${endPoint}/asset/new_image_assets/game element-04.png`
-var s6sound = `${endPoint}/Sounds/level0_sounds/ML_A_L0_10.mp3`
+var s6img = `${endPointserver}/asset/new_image_assets/game element-04.png`
+var s6sound = `${endPointserver}/Sounds/level0_sounds/ML_A_L0_10.mp3`
 
 // Level0 Complete Sound
 // Level 0 Complete Sound
-var L0ComSound = `${endPoint}/Sounds/Global_Music/GL_A_8_L0_Complete.mp3`
+var L0ComSound = `${endPointserver}/Sounds/Global_Music/GL_A_8_L0_Complete.mp3`
 
 
 // Success and Error Borders are here for add in cache
 // Error Images
-var ErrorBorder = `${endPoint}/asset/level_one_assets/Incorrect answer highlight.png`
-var SuccessBorder = `${endPoint}/asset/level_one_assets/Correct answer highlight.png`
+var ErrorBorder = `${endPointserver}/asset/level_one_assets/Incorrect answer highlight.png`
+var SuccessBorder = `${endPointserver}/asset/level_one_assets/Correct answer highlight.png`
 
 // Backgroud Sound
 // var bgSound = `../Sounds/level0_sounds/backgroud_music_free.mp3`
-var bgSound = `${endPoint}/Sounds/level0_sounds/backgroud_music_free.mp3`
+var bgSound = `${endPointserver}/Sounds/level0_sounds/backgroud_music_free.mp3`
 
 // Navbar images 
-var HomeBtn = `${endPoint}/asset/logo/Home.png`
-var BackBtn = `${endPoint}/asset/logo/Back_Inactive.png`
-var ProgressbarBtn = `${endPoint}/asset/Progress_bar/Progress bar_Type_1.png`
-var MusicBtn = `${endPoint}/asset/logo/Music.png`
-var MusicMuteBtn = `${endPoint}/asset/logo/Music_Mute.png`
-var HintBtn = `${endPoint}/asset/logo/Hint_Inactive.png`
+var HomeBtn = `${endPointserver}/asset/logo/Home.png`
+var BackBtn = `${endPointserver}/asset/logo/Back_Inactive.png`
+var ProgressbarBtn = `${endPointserver}/asset/Progress_bar/Progress bar_Type_1.png`
+var MusicBtn = `${endPointserver}/asset/logo/Music.png`
+var MusicMuteBtn = `${endPointserver}/asset/logo/Music_Mute.png`
+var HintBtn = `${endPointserver}/asset/logo/Hint_Inactive.png`
 // var RewardBtn = `${endPoint}/`
 
 
-var WhiteBox = `${endPoint}/asset/Image place holder.png`
+var WhiteBox = `${endPointserver}/asset/Image place holder.png`
 
 
 // -----------------------------------------------------------------------------------
 // All sounds Lists
 
 // var Audio1 = `../Sounds/level0_sounds/ML_A_L0_1.mp3`
-var Audio1 = `${endPoint}/Sounds/level0_sounds/ML_A_L0_1.mp3`
-var Audio2 = `${endPoint}/Sounds/level0_sounds/ML_A_L0_2.mp3`
-var Audio3 = `${endPoint}/Sounds/level0_sounds/ML_A_L0_3.mp3`
-var Audio4 = `${endPoint}/Sounds/level0_sounds/ML_A_L0_4.mp3`
-var Audio5 = `${endPoint}/Sounds/level0_sounds/ML_A_L0_5.mp3`
-var Audio6 = `${endPoint}/Sounds/level0_sounds/ML_A_L0_6.mp3`
-var Audio7 = `${endPoint}/Sounds/level0_sounds/ML_A_L0_7.mp3`
-var Audio8 = `${endPoint}/Sounds/level0_sounds/ML_A_L0_8.mp3`
-var Audio9 = `${endPoint}/Sounds/level0_sounds/ML_A_L0_9.mp3`
-var Audio10 = `${endPoint}/Sounds/level0_sounds/ML_A_L0_10.mp3`
+var Audio1 = `${endPointserver}/Sounds/level0_sounds/ML_A_L0_1.mp3`
+var Audio2 = `${endPointserver}/Sounds/level0_sounds/ML_A_L0_2.mp3`
+var Audio3 = `${endPointserver}/Sounds/level0_sounds/ML_A_L0_3.mp3`
+var Audio4 = `${endPointserver}/Sounds/level0_sounds/ML_A_L0_4.mp3`
+var Audio5 = `${endPointserver}/Sounds/level0_sounds/ML_A_L0_5.mp3`
+var Audio6 = `${endPointserver}/Sounds/level0_sounds/ML_A_L0_6.mp3`
+var Audio7 = `${endPointserver}/Sounds/level0_sounds/ML_A_L0_7.mp3`
+var Audio8 = `${endPointserver}/Sounds/level0_sounds/ML_A_L0_8.mp3`
+var Audio9 = `${endPointserver}/Sounds/level0_sounds/ML_A_L0_9.mp3`
+var Audio10 = `${endPointserver}/Sounds/level0_sounds/ML_A_L0_10.mp3`
 // -----------------------------------------------------------------------------------
 
 // Controls - access OrbitControls
